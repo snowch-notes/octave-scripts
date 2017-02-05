@@ -5,7 +5,7 @@
 %    V1 = [ x1 y1 z1 ]
 %
 % returns:
-%    V1
+%    V0 + V1
 %
 function retval = quiver3_vect( V0, V1 )
   q = quiver3( V0(1), V0(2), V0(3), V1(1), V1(2), V1(3) );
